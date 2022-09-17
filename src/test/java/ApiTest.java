@@ -16,7 +16,7 @@ public class ApiTest {
                 .post("/post")
 // Проверки
                 .then()
-                .statusCode(200)
+                .statusCode(400)
                 .body( "data", equalTo("some value"))
         ;
 
